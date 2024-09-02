@@ -1,0 +1,11 @@
+{% extends 'belife/base.html' %}
+{% block header %}
+    Be Life
+{% endblock header %}
+
+{% block main %}
+    <button><a href="{% url 'index' %}">INICIO</a></button>
+    <button><a href="#">PRODUCTOS</a></button>
+    <button><a href="#">PEDIDOS</a></button>
+    <button><a href="#">CLIENTES</a></button>
+{% endblock main %}
